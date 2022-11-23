@@ -1,0 +1,354 @@
+
+
+.inline-block {
+    display: inline-block;
+    vertical-align: auto;
+}
+
+.logo {
+    width: 45%; 
+    padding: 0%;
+    padding-left: 10%;
+    text-align: center;
+}
+
+.navigation {
+    width: 100%;
+    height: 20%;
+    
+}
+
+body {
+    background-color: #191136;
+    margin: 0;
+}
+
+nav {
+    background-color: #191136;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 2.5%;
+}
+
+p {
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding:0%;
+    gap: 3%;
+    text-decoration: #191136;
+}
+
+
+li { 
+    color: black;
+    padding: 5px;
+    gap: 20px;
+}
+
+#about {
+    color: #191136;
+    text-decoration:  black;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 80px; /* Place the button at the bottom of the page */
+    right: 40px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: 2%; /* Remove borders */
+    text-decoration: none;
+    outline-style: solid;
+    border-block-end-style: solid;
+    border-block-start-style: solid;
+    border-block-style: solid;
+    border-block-end-color: #191136;
+    border-block-start-color: #191136;
+    outline: #191136; /* Remove outline */
+    background-color: #0D1526; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding-top: 10px; /* Some padding */
+    padding-bottom:8px;
+    padding-left: 15px;
+    padding-right:15px;
+    border-radius: 800px; /* Rounded corners */
+    font-size: 25px; /* Increase font size */
+    letter-spacing: 0%;
+    word-spacing: 0%;
+    transform: scale(1, -1);
+			-moz-transform: scale(1, -1);
+			-webkit-transform: scale(1, -1);
+			-o-transform: scale(1, -1);
+			-ms-transform: scale(1, -1);
+			transform: scale(1, -1);
+  }
+  
+  #myBtn:hover {
+    color: #0D1526;
+    background-color: #C9C7EF;
+    ; 
+  }
+
+.heroimg {
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #C9C7EF;
+    padding: 25px;
+    padding-bottom: 40px;
+}
+
+.content {
+    width: 610px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image {
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+width: 600px;
+height: 400px; 
+padding-bottom: 5px;
+}
+
+footer {
+    background-color: #191136;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0%;
+}
+
+h1 {
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+
+.flexContainer {
+    display: flex;
+    width: 70%;
+    gap: 20px;
+    padding: 5%;
+    padding-top: 4%;
+    padding-right: 15%;
+    justify-content: center;
+    padding-left: 15%;
+    padding-bottom: 2%;
+    background-color: #191136;
+    background-size: cover;
+}
+
+
+.whitetext {
+    color: white;
+}
+
+h3 { 
+    color: white;
+}
+
+h1 { 
+    color: white;
+}
+
+h2 { 
+    color: #191136;
+}
+
+h4 { 
+    color: #191136;
+}
+
+.mySkills {
+    text-align: center;
+}
+
+.workGrid {
+    width: 55%;
+    display: grid;
+    gap: 5%;
+    row-gap: 10%;
+    grid-template-columns: auto auto;
+    align-items: center;
+    align-content: center;
+    padding: 1%;
+    padding-left: 27%;
+    padding-bottom: 5%;
+}
+
+.myWork {
+    text-align: center;
+    justify-content: center;
+    padding: 5%;
+    color: black;
+    height: 1%;
+}
+
+#myWork2 {
+    text-align: center;
+    justify-content: center;
+    padding: 2%;
+    color: black;
+    height: 1%;
+    text-decoration: underline;
+    text-decoration-color: black;
+    cursor: pointer;
+}
+
+button {
+   border-color: #191136;
+   color: #C9C7EF;
+    background-color: #191136;
+   cursor: pointer;
+   padding: 2.5%;
+}
+
+.buttonR {
+    border-color: #191136;
+    border-width: 3px;
+    color: #C9C7EF;
+    background-color:#191136;
+    cursor: pointer;
+    padding: 1.7%;
+ }
+
+.workIt {
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #C9C7EF;
+    padding-bottom: 1%;
+}
+
+
+@media screen and (max-width: 700px) {
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        gap: 20px;
+        padding: 5%;
+        padding-top: 4%;
+        padding-right: 15%;
+        justify-content: center;
+        padding-left: 15%;
+        padding-bottom: 2%;
+        background-color: #0D1526;
+        background-size: cover;
+    }
+    .workGrid {
+        width: 85%;
+        display:inline-block;
+        justify-items: center;
+        gap: 5%;
+        row-gap: 10%;
+        align-items: center;
+        align-content: center;
+        padding-left: 5%;
+        margin: auto;
+    }
+
+    .workIt {
+    
+        background-position:40%;
+        background-repeat:repeat-x;
+        background-size:cover;
+        background-color: #0D1526;
+        padding-bottom: 1%;
+    }
+    
+    .myWork {
+        text-align: center;
+        padding: 0%;
+        padding-top: 15%;
+        color: black;
+        height: 1%;
+        
+}
+
+.content {
+    width: 283px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.image {
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+width: 200px;
+height: 200px; 
+padding: 0%;
+padding-left: 10%;
+margin: auto;
+}
+
+nav {
+    background-color: #191136;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-right: 10%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding:0%;
+    gap: 25px;
+}
+
+.logo {
+    width: 1%; 
+    padding: 0%;
+    padding-top: 4.5%;
+    padding-left: 10%;
+    text-align: center;
+
+}
+
+button {
+    border-color: #191136;
+   color: #C9C7EF;
+    background-color: #191136;
+   cursor: pointer;
+   padding: 2.5%;
+ }
+
+ .buttonR {
+    border-color: #191136;
+    border-width: 3px;
+    color: #C9C7EF;
+    background-color:#191136;
+    cursor: pointer;
+    padding: 1.7%;
+ }
+
+
+}
+
+
+.icons {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.icons i {
+    font-size: 30px;
+    padding: 10px;
+    color: #ffffff;
+}
